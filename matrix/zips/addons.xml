@@ -22,9 +22,9 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="service.lightcontroll" name="Lightcontroll" version="0.1.0" provider-name="Tibersam">
+</addon><addon id="service.lightcontroll" name="Lightcontroll" version="0.1.1" provider-name="Tibersam">
   <requires>
-	<import addon="xbmc.python" version="2.1.0" />
+	<import addon="xbmc.python" version="3.0.0" />
 	<import addon="script.module.pyserial" version="3.4.0" />
   </requires>
   <extension point="xbmc.python.script" library="script.py" />
