@@ -1,0 +1,3 @@
+[submodule "matrix/script.lightcontroll"]
+	path = matrix/script.lightcontroll
+	url = https://github.com/tibersam/script.lightcontroll.git
