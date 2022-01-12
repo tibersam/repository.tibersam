@@ -43,7 +43,7 @@
 	  <summary> Autorelaunch script </summary>
 	  <description>Uses autoexec.py internally to launch all autoexec configured services. This allows them to be stopped and then restarted.</description>
   </extension>
-</addon><addon id="service.lightcontroll" name="Lightcontroll" version="0.1.12" provider-name="Tibersam">
+</addon><addon id="service.lightcontroll" name="Lightcontroll" version="0.1.13" provider-name="Tibersam">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
 	<import addon="script.module.pyserial" version="3.4.0" />
