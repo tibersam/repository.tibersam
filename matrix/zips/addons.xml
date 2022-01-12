@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="repository.tibersam" name="Tibersam Repository" version="0.1" provider-name="tibersam">
+<addons><addon id="repository.tibersam" name="Tibersam Repository" version="0.2" provider-name="tibersam">
     <extension point="xbmc.addon.repository" name="Tibersam Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/tibersam/repository.tibersam/master/repo/zips/addons.xml</info>
@@ -34,6 +34,15 @@
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 	</extension>
+</addon><addon id="service.autorelaunch" name="Lightcontroll" version="0.1.0" provider-name="tibersam">
+  <requires>
+	<import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="script.py" />
+  <extension point="xbmc.addon.metadata"> 
+	  <summary> Autorelaunch script </summary>
+	  <description>Uses autoexec.py internally to launch all autoexec configured services. This allows them to be stopped and then restarted.</description>
+  </extension>
 </addon><addon id="service.lightcontroll" name="Lightcontroll" version="0.1.12" provider-name="Tibersam">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
