@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="repository.tibersam" name="Tibersam Repository" version="0.2" provider-name="tibersam">
+<addons><addon id="repository.tibersam" name="Tibersam Repository" version="0.3" provider-name="tibersam">
     <extension point="xbmc.addon.repository" name="Tibersam Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/tibersam/repository.tibersam/master/repo/zips/addons.xml</info>
