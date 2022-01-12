@@ -34,7 +34,7 @@
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 	</extension>
-</addon><addon id="service.autorelaunch" name="Lightcontroll" version="0.1.0" provider-name="tibersam">
+</addon><addon id="service.autorelaunch" name="Autorelaunch" version="0.1.1" provider-name="tibersam">
   <requires>
 	<import addon="xbmc.python" version="3.0.0" />
   </requires>
