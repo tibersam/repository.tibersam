@@ -1,3 +1,6 @@
 [submodule "matrix/script.lightcontroll"]
 	path = matrix/script.lightcontroll
 	url = https://github.com/tibersam/script.lightcontroll.git
+[submodule "matrix/plugin.program.moonlight-qt"]
+	path = matrix/plugin.program.moonlight-qt
+	url = https://github.com/veldenb/plugin.program.moonlight-qt.git
